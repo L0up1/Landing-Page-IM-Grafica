@@ -145,9 +145,40 @@
     }
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 1115px) {
 
-    #banner img {
+    .shape {
+        height: 80vh;
+        padding-bottom: 20px;
+        top: 32%;
+    }
+}
 
+@media (max-width: 625px) {
+
+    .shape {
+        top: 36%;
+    }
+}
+
+@media (max-width: 583px) {
+
+    .shape {
+        top: 35%;
+        height: 85vh;
+    }
+}
+
+@media (max-width: 420px) {
+
+    .shape {
+        top: 38%;
+    }
+}
+
+@media (max-width: 323px) {
+
+    .shape {
+        top: 40%;
     }
 }
