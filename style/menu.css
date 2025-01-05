@@ -40,7 +40,7 @@
 }
 
 .item-heart {
-    background-color: #e9a209;
+    background-color: #5482ff;
     position: absolute;
     display: flex;
     align-items: center;
@@ -91,7 +91,7 @@
     }
 }
 
-@media screen and (max-width: 11770px) {
+@media screen and (max-width: 1770px) {
     .items {
         width: calc(50% - 12px);
     }
