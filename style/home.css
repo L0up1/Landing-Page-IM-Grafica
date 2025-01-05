@@ -1,6 +1,6 @@
 #home {
     display: flex;
-    min-height: calc(100vh - 134.17px);
+    min-height: calc(100vh - 146px);
     position: relative;
 }
 
