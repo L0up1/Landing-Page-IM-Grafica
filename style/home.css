@@ -84,18 +84,7 @@
     margin: 0 auto;
 }
 
-.shape {
-    background-color: #5482ffa0;
-    width: 90vh;
-    height: 98%;
-    position: absolute;
-    border-radius: 30% 30% 30% 30%;
-    top: 2;
-    right: 20px;
-    z-index: 2;
-    display: flex;
-    padding: 20px;
-}
+
 
 @media screen and (max-width: 1440px) {
     #home {
@@ -114,20 +103,6 @@
         padding: 5%;
     }
 
-    .shape {
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-        width: 120vh;
-        max-width: 100%;
-        height: 80vh;
-        position: absolute;
-        display: flex;
-        flex-direction: column;
-        top: 42%;
-        right: auto;
-    }
-
     #banner {
         padding-top: 70px;
     }
@@ -143,158 +118,5 @@
         align-items: center;
         margin: 0;
         margin-left: none;
-    }
-}
-
-@media (max-width: 1249px) {
-
-    .shape {
-        height: 80vh;
-        padding-bottom: 20px;
-        top: 44%;
-    }
-}
-
-@media (max-width: 1115px) {
-
-    .shape {
-        height: 83vh;
-        padding-bottom: 20px;
-        top: 43%;
-    }
-}
-
-@media (max-width: 858px) {
-    .shape {
-        top: 46%;
-    }
-}
-
-
-@media (max-width: 800px) {
-    .shape {
-        top: 48%;
-    }
-}
-
-@media (max-width: 652px) {
-
-    .shape {
-        height: 85vh;
-        top: 51%;
-    } 
-}
-
-@media (max-width: 628px) {
-
-    .shape {
-        top: 51%;
-    }
-}
-
-@media (max-width: 583px) {
-
-    .shape {
-        top: 52%;
-        height: 85vh;
-    }
-}
-
-@media (max-width: 471px) {
-
-    .shape {
-        top: 53%;
-    }
-}
-
-@media (max-width: 410px) {
-
-    .shape {
-        top: 54%;
-    }
-}
-
-@media (max-width: 402px) {
-
-    .shape {
-        top: 56%;
-    }
-}
-
-@media (max-width: 395px) {
-
-    .shape {
-        top: 57%;
-    }
-}
-
-@media (max-width: 393px) {
-
-    .shape {
-        top: 60%;
-    }
-}
-
-@media (max-height: 840px) {
-
-    .shape {
-        top: 58%;
-        height: 90vh;
-    }
-}
-
-@media (max-height: 800px) {
-
-    .shape {
-        top: 58%;
-        height: 94vh;
-    }
-}
-
-@media (max-height: 775px) {
-
-    .shape {
-        height: 102vh;
-        top: 58%;
-    }
-}
-
-@media (max-height: 720px) {
-
-    .shape {
-        height: 109vh;
-        top: 58%;
-    }
-}
-
-@media (max-height: 665px) {
-
-    .shape {
-        height: 117vh;
-        top: 58%;;
-    }
-}
-
-@media (max-height: 615px) {
-
-    .shape {
-        height: 127vh;
-        top: 58%;
-    }
-}
-
-@media (max-height: 565px) {
-
-    .shape {
-        height: 137vh;
-        top: 58%;
-    }
-}
-
-@media (max-height: 520px) {
-
-    .shape {
-        height: 149vh;
-        top: 58%;
     }
 }
