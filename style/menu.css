@@ -1,4 +1,5 @@
 #menu {
+    background-color: #f5f5f5;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,19 +18,24 @@
 }
 
 .items{
-    background-color: #ffffff;
+    background-color: #f8f9fa;
     padding: 30px;
     display: flex;
     text-align: center;
     flex-direction: column;
     height: fit-content;
     width: fit-content;
-    border-radius: 30px;
+    border-radius: 20px;
+    border: 2px solid rgb(22, 45, 255);
     position: relative;
     gap: 24px;
     align-items: center;
     box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
+}
+
+.items:hover {
+    transform: translateY(-10px);
+    transition: all 0.3s ease-in-out;
 }
 
 #products {
@@ -38,6 +44,19 @@
     justify-content: center;
     gap: 24px;
     margin-top: 32px;
+}
+
+.best-seller::before {
+    content: "MAIS VENDIDO";
+            position: absolute;
+            top: -10px;
+            right: -10px;
+            background:rgb(22, 45, 255);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
 }
 
 .item-heart {
