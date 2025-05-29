@@ -1,130 +1,214 @@
 #menu {
-    background-color: #f5f5f5;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 100vh;
-    scroll-margin-top: 146px;
+  background-color: #f5f5f5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  scroll-margin-top: 146px;
 }
 
 #products img {
-    width: 200px;
-    height: 180px;
-    border-radius: 20px;
-    align-items: center;
-    margin: 0 auto;
-
+  width: 200px;
+  height: 180px;
+  border-radius: 20px;
+  align-items: center;
+  margin: 0 auto;
 }
 
-.items{
-    background-color: #f8f9fa;
-    padding: 30px;
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    height: fit-content;
-    width: fit-content;
-    border-radius: 20px;
-    border: 2px solid rgb(22, 45, 255);
-    position: relative;
-    gap: 24px;
-    align-items: center;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+.items {
+  background-color: #f8f9fa;
+  padding: 30px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 20px;
+  border: 2px solid rgb(22, 45, 255);
+  position: relative;
+  gap: 24px;
+  align-items: center;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
 }
 
 .items:hover {
-    transform: translateY(-10px);
-    transition: all 0.3s ease-in-out;
+  transform: translateY(-10px);
+  transition: all 0.3s ease-in-out;
 }
 
 #products {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    gap: 24px;
-    margin-top: 32px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
 }
 
 .best-seller::before {
-    content: "MAIS VENDIDO";
-            position: absolute;
-            top: -10px;
-            right: -10px;
-            background:rgb(22, 45, 255);
-            color: white;
-            padding: 5px 15px;
-            border-radius: 20px;
-            font-size: 0.8rem;
-            font-weight: bold;
+  content: "MAIS VENDIDO";
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: rgb(22, 45, 255);
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
 }
 
 .item-heart {
-    background-color: #5482ff;
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 70px;
-    height: 70px;
-    right: -10px;
-    top: -10px;
-    font-size: 1.563rem;
-    border-radius: 0px 37.5px 0px 42.5px;
+  background-color: #5482ff;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  right: -10px;
+  top: -10px;
+  font-size: 1.563rem;
+  border-radius: 0px 37.5px 0px 42.5px;
 }
 
 .item-heart i {
-    color: #ffffff;
+  color: #ffffff;
 }
 
 #menu h2,
 #menu h3 {
-    gap: 10px;
-    margin: 0;
+  gap: 10px;
+  margin: 0;
 }
 
 .item-description {
-    color: #434343;
-    text-align: center;
+  color: #434343;
+  text-align: center;
 }
 
 .item-rate i {
-    color: #e9a209;
+  color: #e9a209;
 }
 
 .item-price {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+#others {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 32px;
+  text-align: center;
+  align-items: center;
+}
+
+.text {
+  margin-bottom: 16px;
+}
+
+.text h3 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 12px;
+}
+
+.text p {
+  font-size: 1.1rem;
+  color: #666;
+  max-width: 600px;
+  line-height: 1.6;
+}
+
+.products-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  gap: 24px;
+}
+
+.other-products {
+  background-color: #f8f9fa;
+  padding: 30px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  height: fit-content;
+  width: 280px;
+  border-radius: 20px;
+  border: 2px solid rgb(22, 45, 255);
+  position: relative;
+  gap: 16px;
+  align-items: center;
+  box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.other-products:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 20px 6px rgba(0, 0, 0, 0.15);
+}
+
+.other-products h1 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: rgb(22, 45, 255);
+  margin-bottom: 8px;
+}
+
+.other-products p {
+  font-size: 0.95rem;
+  color: #555;
+  line-height: 1.5;
 }
 
 @media screen and (max-width: 1530px) {
-    .items {
-        padding-top: 40px ;
-    }
+  .items {
+    padding-top: 40px;
+  }
 }
 
 @media screen and (max-width: 1440px) {
-    #products {
-       flex-wrap: wrap;
-       justify-content: center;
-    }
+  #products {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 1770px) {
-    .items {
-        width: calc(50% - 12px);
-    }
+  .items {
+    width: calc(50% - 12px);
+  }
+}
+
+@media (max-width: 768px) {
+  .products-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .other-products {
+    width: 100%;
+    max-width: 350px;
+  }
+
+  .text h3 {
+    font-size: 2rem;
+  }
 }
 
 @media screen and (max-width: 600px) {
-    #menu .section-subtitle {
-        text-align: center;
-    }
+  #menu .section-subtitle {
+    text-align: center;
+  }
 
-    .items {
-        width: 100%;
-    }
+  .items {
+    width: 100%;
+  }
 }
-
-
