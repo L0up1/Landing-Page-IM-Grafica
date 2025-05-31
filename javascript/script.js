@@ -42,9 +42,15 @@ $(document).ready(function () {
   });
 
   ScrollReveal().reveal('#products', {
-    origin: 'left',
+    origin: 'right',
     duration: 2000,
     distance: '20%',
+  });
+
+  ScrollReveal().reveal("#others", {
+    origin: "left",
+    duration: 2000,
+    distance: "20%",
   });
 
     ScrollReveal().reveal("#feedbacks", {

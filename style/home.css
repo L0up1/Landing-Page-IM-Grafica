@@ -35,19 +35,7 @@
     color: #1d1d1d;
 }
 
-#phone_button {
-    display: flex;
-    gap: 8px;
-    align-items: center;
-    padding: 8px 14px;
-    font-weight: 500;
-    box-shadow: 0px 0px 12px 4px rgba(0, 0, 0, 0.1);
-    border-radius: 12px;
-}
 
-#phone_button button {
-    box-shadow: none;
-}
 
 #banner {
     margin-left: auto;
