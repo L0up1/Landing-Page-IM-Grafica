@@ -28,7 +28,7 @@ $(document).ready(function () {
     let activeSectionIndex = 0;
 
     sections.forEach(function (section, i) {
-      const sectionTop = section.offset().top;
+      const sectionTop = section.offset().top - 10;
       const sectionBottom = sectionTop + section.outerHeight();
 
       if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
